@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Providers } from "../assets/redux/provider";
+import Image from "next/image";
+import Logo from "../assets/images/Logo.png";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const imageStyle = {
+  marginTop: "30px",
+  marginBottom: "10px",
+};
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +25,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Providers>{children}</Providers>
+        <Providers>
+          <div className="flex flex-col items-center">
+            <Image
+              src={Logo}
+              alt="logo"
+              style={imageStyle}
+              width={180}
+              height={180}
+            />
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );
