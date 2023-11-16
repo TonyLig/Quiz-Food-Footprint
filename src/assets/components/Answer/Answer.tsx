@@ -1,30 +1,25 @@
 "use client";
 
 import { useSelector, useDispatch } from "react-redux";
-import questions from "../../questions/questions.json";
-import { RootState } from "../../redux/store";
-import {
-  setUserAnswer,
-  setDisableButton,
-  nextQuestion,
-} from "../../redux/quizSlice";
 
-const TIME_TO_NEXT_ANSWER = 2000;
+import { RootState } from "../../redux/store";
+import { handleAnswer, nextQuestion } from "../../redux/quizSlice";
+
+const TIME_TO_NEXT_ANSWER = 100;
 
 interface Props {
   answer: string;
 }
 
 export default function Answer({ answer }: Props) {
-  // Redux global state
-  const { userAnswer, questionIndex, disableButton } = useSelector(
+  // Redux golbal state
+  const { userAnswer, questionIndex, disableButton, questions } = useSelector(
     (state: RootState) => state.quiz,
   );
   const dispatch = useDispatch();
 
   function handleUserAnswer(userAnswer: string) {
-    dispatch(setUserAnswer(userAnswer));
-    dispatch(setDisableButton(true));
+    dispatch(handleAnswer(userAnswer));
     setTimeout(() => {
       dispatch(nextQuestion());
     }, TIME_TO_NEXT_ANSWER);
