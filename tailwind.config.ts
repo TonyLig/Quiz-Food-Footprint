@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: { mainGreen: "#81C143" },
+      colors: { mainGreen: "#81C143", hoverGreen: "#45A33C" },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "What percentage of global greenhouse gas emissions is estimated to come from the food sector?",
+    "answers": ["10%", "25%", "50%", "75%"],
+    "correctAnswer": "25%",
+    "incorrectAnswers": ["10%", "50%", "75%"]
+  },
+  {
+    "id": 2,
+    "question": "Which type of agriculture is known for its minimal environmental impact and reliance on natural practices?",
+    "answers": [
+      "Conventional agriculture",
+      "Organic agriculture",
+      "Industrial agriculture",
+      "Biodynamic agriculture"
+    ],
+    "correctAnswer": "Organic agriculture",
+    "incorrectAnswers": [
+      "Conventional agriculture",
+      "Industrial agriculture",
+      "Biodynamic agriculture"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "How much water is estimated to be required to produce one kilogram of beef?",
+    "answers": [
+      "100 liters",
+      "1,000 liters",
+      "10,000 liters",
+      "100,000 liters"
+    ],
+    "correctAnswer": "10,000 liters",
+    "incorrectAnswers": ["100 liters", "1,000 liters", "100,000 liters"]
+  },
+  {
+    "id": 4,
+    "question": "Which food group typically has the highest carbon footprint per kilogram?",
+    "answers": [
+      "Fruits and vegetables",
+      "Meat and dairy",
+      "Grains and cereals",
+      "Seafood"
+    ],
+    "correctAnswer": "Meat and dairy",
+    "incorrectAnswers": [
+      "Fruits and vegetables",
+      "Grains and cereals",
+      "Seafood"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the term for a diet that eliminates all animal products, including meat, dairy, and eggs?",
+    "answers": ["Pescatarian", "Vegan", "Ketogenic", "Paleolithic"],
+    "correctAnswer": "Vegan",
+    "incorrectAnswers": ["Pescatarian", "Ketogenic", "Paleolithic"]
+  },
+  {
+    "id": 6,
+    "question": "Which greenhouse gas is primarily associated with the livestock sector?",
+    "answers": [
+      "Carbon dioxide (CO2)",
+      "Methane (CH4)",
+      "Nitrous oxide (N2O)",
+      "Ozone (O3)"
+    ],
+    "correctAnswer": "Methane (CH4)",
+    "incorrectAnswers": [
+      "Carbon dioxide (CO2)",
+      "Nitrous oxide (N2O)",
+      "Ozone (O3)"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is the main driver of deforestation in many tropical regions?",
+    "answers": [
+      "Urbanization",
+      "Agriculture",
+      "Renewable energy projects",
+      "Mining"
+    ],
+    "correctAnswer": "Agriculture",
+    "incorrectAnswers": ["Urbanization", "Renewable energy projects", "Mining"]
+  },
+  {
+    "id": 8,
+    "question": "Which sustainable farming practice involves planting a variety of crops in the same field to improve soil health and biodiversity?",
+    "answers": ["Monoculture", "Crop rotation", "GMO farming", "Hydroponics"],
+    "correctAnswer": "Crop rotation",
+    "incorrectAnswers": ["Monoculture", "GMO farming", "Hydroponics"]
+  },
+  {
+    "id": 9,
+    "question": "What is the term for food that is grown or produced locally and sold directly to consumers, often through farmers' markets or community-supported agriculture (CSA) programs?",
+    "answers": ["Fast food", "Processed food", "Local food", "Imported food"],
+    "correctAnswer": "Local food",
+    "incorrectAnswers": ["Fast food", "Processed food", "Imported food"]
+  },
+  {
+    "id": 10,
+    "question": "What is the name of the international organization that promotes sustainable and ethical practices in the seafood industry?",
+    "answers": [
+      "Greenpeace",
+      "Sea Shepherd",
+      "Monterey Bay Aquarium",
+      "Marine Stewardship Council (MSC)"
+    ],
+    "correctAnswer": "Marine Stewardship Council (MSC)",
+    "incorrectAnswers": ["Greenpeace", "Sea Shepherd", "Monterey Bay Aquarium"]
+  }
+]

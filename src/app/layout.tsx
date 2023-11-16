@@ -5,9 +5,11 @@ import Image from "next/image";
 import Logo from "../assets/images/Logo.png";
 import "./globals.css";
 
+// Font
 const inter = Inter({ subsets: ["latin"] });
 
-const imageStyle = {
+// Style image
+const logoImageStyle = {
   marginTop: "30px",
   marginBottom: "10px",
 };
@@ -30,7 +32,7 @@ export default function RootLayout({
             <Image
               src={Logo}
               alt="logo"
-              style={imageStyle}
+              style={logoImageStyle}
               width={180}
               height={180}
             />
