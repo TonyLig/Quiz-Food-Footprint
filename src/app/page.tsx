@@ -1,21 +1,25 @@
 import Image from "next/image";
 import Footprint from "../assets/images/footprint.png";
-import MainButton from "../assets/components/MainButton";
-import Accordion from "../assets/components/Accordion";
+import MainButton from "../assets/components/MainButton/MainButton";
+import Accordion from "../assets/components/Accordion/Accordion";
+import Logo from "../assets/images/Logo.png";
+import Link from "next/link";
 
-const imageStyle = {
+// Style images
+const footImageStyle = {
   borderRadius: "5%",
   border: "1px solid ",
   marginBottom: "20px",
+  marginLeft: "20px",
 };
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center">
+    <main className="flex flex-col items-center mt-10 gap-4">
       <Image
-        style={imageStyle}
         src={Footprint}
         alt="footprint"
+        style={footImageStyle}
         width={500}
         height={200}
       />
@@ -29,7 +33,9 @@ export default function Home() {
           socially responsible food choices.
         </p>
       </Accordion>
-      <MainButton>Start Quiz</MainButton>
+      <Link href={"/quiz"}>
+        <MainButton>Start Quiz</MainButton>
+      </Link>
     </main>
   );
 }
