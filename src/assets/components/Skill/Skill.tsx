@@ -49,10 +49,10 @@ export default function Skill() {
 
   return (
     <>
-      <h1 className="font-semibold">
+      <h1 className="font-semibold mt-2">
         Your Score is: {score} out of {questions.length}
       </h1>
-      <h1 className="font-bold text-xl">{skillText}</h1>
+      <h1 className="font-bold text-xl my-2">{skillText}</h1>
       <div className="m-3">
         <Image
           src={skillImage}
