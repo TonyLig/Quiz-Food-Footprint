@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "question": "What percentage of global greenhouse gas emissions is estimated to come from the food sector?",
+    "question": "What's the estimated percentage of global greenhouse gas emissions from the food sector?",
     "answers": ["10%", "25%", "50%", "75%"],
     "correctAnswer": "25%",
     "incorrectAnswers": ["10%", "50%", "75%"]
   },
   {
     "id": 2,
-    "question": "Which type of agriculture is known for its minimal environmental impact and reliance on natural practices?",
+    "question": "What agriculture type has low environmental impact and relies on natural practices?",
     "answers": [
       "Conventional agriculture",
       "Organic agriculture",
@@ -87,28 +87,28 @@
   },
   {
     "id": 8,
-    "question": "Which sustainable farming practice involves planting a variety of crops in the same field to improve soil health and biodiversity?",
+    "question": "Which sustainable farming method boosts soil health and biodiversity?",
     "answers": ["Monoculture", "Crop rotation", "GMO farming", "Hydroponics"],
     "correctAnswer": "Crop rotation",
     "incorrectAnswers": ["Monoculture", "GMO farming", "Hydroponics"]
   },
   {
     "id": 9,
-    "question": "What is the term for food that is grown or produced locally and sold directly to consumers, often through farmers' markets or community-supported agriculture (CSA) programs?",
+    "question": "What's the term for locally sold food, often through farmers' markets or CSA programs?",
     "answers": ["Fast food", "Processed food", "Local food", "Imported food"],
     "correctAnswer": "Local food",
     "incorrectAnswers": ["Fast food", "Processed food", "Imported food"]
   },
   {
     "id": 10,
-    "question": "What is the name of the international organization that promotes sustainable and ethical practices in the seafood industry?",
+    "question": "International organization promoting sustainable practices in the seafood industry.",
     "answers": [
       "Greenpeace",
       "Sea Shepherd",
       "Monterey Bay Aquarium",
-      "Marine Stewardship Council (MSC)"
+      "Marine Stewardship Council"
     ],
-    "correctAnswer": "Marine Stewardship Council (MSC)",
+    "correctAnswer": "Marine Stewardship Council",
     "incorrectAnswers": ["Greenpeace", "Sea Shepherd", "Monterey Bay Aquarium"]
   }
 ]

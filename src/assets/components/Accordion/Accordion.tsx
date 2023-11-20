@@ -12,6 +12,7 @@ export default function Accordion({ children }: Props) {
   function handleClick() {
     setIsOpen(!isOpen);
   }
+
   return (
     <div className="flex flex-col items-center">
       <MainButton onClick={handleClick}>

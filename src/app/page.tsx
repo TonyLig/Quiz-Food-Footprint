@@ -2,14 +2,13 @@ import Image from "next/image";
 import Footprint from "../assets/images/footprint.png";
 import MainButton from "../assets/components/MainButton/MainButton";
 import Accordion from "../assets/components/Accordion/Accordion";
-import Logo from "../assets/images/Logo.png";
 import Link from "next/link";
 
 // Style images
 const footImageStyle = {
   borderRadius: "5%",
   border: "1px solid ",
-  marginBottom: "20px",
+  marginBottom: "5px",
   marginLeft: "20px",
 };
 
@@ -23,6 +22,10 @@ export default function Home() {
         width={500}
         height={200}
       />
+      <Link href={"/quiz"}>
+        <MainButton>Start Quiz</MainButton>
+      </Link>
+
       <Accordion>
         <p className="text-left p-5">
           Our goal with this quiz is to empower you with the knowledge of the
@@ -33,9 +36,6 @@ export default function Home() {
           socially responsible food choices.
         </p>
       </Accordion>
-      <Link href={"/quiz"}>
-        <MainButton>Start Quiz</MainButton>
-      </Link>
     </main>
   );
 }

@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 // Style image
 const logoImageStyle = {
-  marginTop: "30px",
-  marginBottom: "10px",
+  marginTop: "25px",
+  marginBottom: "5px",
 };
 
 export const metadata: Metadata = {
