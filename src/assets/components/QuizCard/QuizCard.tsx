@@ -10,6 +10,7 @@ export default function QuizCard() {
   const { questionIndex, questions } = useSelector(
     (state: RootState) => state.quiz,
   );
+
   if (questionIndex >= questions.length) return redirect("/skill");
 
   return (
@@ -18,7 +19,7 @@ export default function QuizCard() {
         Question {questions[questionIndex].id}/{questions.length}
       </p>
       <div className="flex flex-col items-center mt-5">
-        <p className="w-4/5 text-lg pb-5">
+        <p className="w-9/12 max-w-[600px] h-[90px] text-lg pb-5">
           {questions[questionIndex].question}
         </p>
         <div className="flex flex-col items-center gap-4 w-full">
