@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../../redux/store";
 import { handleAnswer, nextQuestion } from "../../redux/quizSlice";
 
-const TIME_TO_NEXT_ANSWER = 1500;
+const TIME_TO_NEXT_ANSWER = 1000;
 
 interface Props {
   answer: string;

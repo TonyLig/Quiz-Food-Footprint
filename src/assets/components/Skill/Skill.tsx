@@ -60,7 +60,6 @@ export default function Skill() {
           alt="pasta"
           width={300}
           height={300}
-          placeholder="blur"
         />
       </div>
       <Link href={"/"}>
