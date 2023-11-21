@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Footprint from "../assets/images/footprint.png";
+import Footprint from "../assets/images/footprint.webp";
 import MainButton from "../assets/components/MainButton/MainButton";
 import Accordion from "../assets/components/Accordion/Accordion";
 import Link from "next/link";
