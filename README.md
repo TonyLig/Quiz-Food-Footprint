@@ -12,7 +12,7 @@ This app is designed to raise awareness about the environmental and social impac
 
 ## Live Demo
 
-Check out the live demo of Mindful at: [Quiz Food Footprint](https://quiz-food-footprint-fzp1tdguh-partimeproject1-gmailcom.vercel.app/)
+Check out the live demo of Mindful at: [Quiz Food Footprint](https://quiz-food-footprint.vercel.app/)
 
 ## Installation
 
