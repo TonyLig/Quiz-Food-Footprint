@@ -19,10 +19,10 @@ export default function QuizCard() {
         Question {questions[questionIndex].id}/{questions.length}
       </p>
       <div className="flex flex-col items-center mt-5">
-        <p className="w-9/12 max-w-[600px] h-[90px] text-lg pb-5">
+        <p className="w-9/12 max-w-[600px] h-[90px] text-lg mt-2">
           {questions[questionIndex].question}
         </p>
-        <div className="flex flex-col items-center gap-4 w-full">
+        <div className="flex flex-col items-center gap-4 w-full mt-6">
           {questions[questionIndex].answers.map((answer) => (
             <Answer key={answer} answer={answer} />
           ))}

@@ -18,6 +18,7 @@ export default function Answer({ answer }: Props) {
   );
   const dispatch = useDispatch();
 
+  // Main logic
   function handleUserAnswer(userAnswer: string) {
     dispatch(handleAnswer(userAnswer));
     setTimeout(() => {
